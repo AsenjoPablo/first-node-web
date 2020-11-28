@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=title%></title>
+    <%- include ('partials/head.html') %>
+  </head>
+  <body>
+    <%- include ('partials/navigation.html') %>         
+    <div class="log-lg-12 text-center">
+      <img
+        class="animate__animated animate__fadeInDown"
+        src="img/avengers-logo.png"
+        alt="avengers logo"
+      />
+              
+    </div>
+
+    <!-- SECTION ONE-->
+    <div class="container-fluid" id="about">
+      <div
+        class="row bg-dark text-white p-5 text-center animate__animated animate__fadeInRight"
+      >
+        <div class="col-sm-6"><i class="fab fa-youtube fa-10x"></i></div>
+        <div class="col-sm-6">
+          <h3>Ejemplo de texto</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eaque
+          dolorem id dolorum natus. Incidunt perferendis, accusamus
+          necessitatibus quos assumenda, sit aspernatur id aut expedita dolores
+          sunt voluptate magni est?
+        </div>
+      </div>
+    </div>
+
+    <%- include ('partials/footer.html')%>
+  </body>
+</html>
